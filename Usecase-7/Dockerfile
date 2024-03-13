@@ -1,6 +1,6 @@
 # This file is used to create a docker image.
 # The image name created in the previous use case.
-FROM pictolearn/tomcat7-jdk7
+FROM oster1ks/tomcat7-jdk7
 
 #Set Catalina HOME and JAVA_OPTS
 ENV CATALINA_HOME /opt/tomcat
